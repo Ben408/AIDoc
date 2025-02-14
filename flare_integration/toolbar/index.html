@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Documentation Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="toolbar">
+        <div class="toolbar-header">
+            <h1>AI Documentation Assistant</h1>
+        </div>
+        
+        <div class="toolbar-section">
+            <h2>Quick Actions</h2>
+            <button id="queryBtn" class="toolbar-button">
+                <span class="icon">❓</span> Ask a Question
+            </button>
+            <button id="draftBtn" class="toolbar-button">
+                <span class="icon">📝</span> Generate Draft
+            </button>
+            <button id="reviewBtn" class="toolbar-button">
+                <span class="icon">👀</span> Review Content
+            </button>
+        </div>
+
+        <div class="toolbar-section">
+            <h2>Input</h2>
+            <textarea id="inputText" 
+                      placeholder="Enter your question or content here..."
+                      rows="4"></textarea>
+        </div>
+
+        <div class="toolbar-section">
+            <h2>Response</h2>
+            <div id="responseArea" class="response-area">
+                <p class="placeholder">AI response will appear here...</p>
+            </div>
+        </div>
+
+        <div class="toolbar-footer">
+            <button id="insertBtn" class="toolbar-button primary" disabled>
+                Insert into Document
+            </button>
+            <button id="clearBtn" class="toolbar-button secondary">
+                Clear
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
