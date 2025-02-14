@@ -18,7 +18,10 @@ An intelligent documentation assistant that integrates with MadCap Flare to prov
 - Automated content formatting
 - Pattern recognition
 - RestAPI endpoints
-- Simulator UI
+  
+## Simulator UI
+![image](https://github.com/user-attachments/assets/a6707125-2271-428d-bee1-55a56174db46)
+
 
 ### Integrations
 - OpenAI GPT-4 integration
